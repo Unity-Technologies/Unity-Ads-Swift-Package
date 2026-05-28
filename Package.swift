@@ -10,7 +10,7 @@ let package = Package(
     .library(name: "UnityAds", targets: ["UASPM"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/ironsource-mobile/Unity-Ad-Quality-Swift-Package", from: "9.2.1"),
+    .package(url: "https://github.com/Unity-Technologies/unity-ads-ios/releases/download/4.18.1/UnityAds.zip",
   ],
   targets: [
     .target(
@@ -37,8 +37,8 @@ let package = Package(
       ]),
     .binaryTarget(
       name: "UnityAdsSDK",
-      url: "https://github.com/Unity-Technologies/unity-ads-ios/releases/download/4.18.0/UnityAds.zip",
-      checksum: "e027a0ab66f7d57a7e59855c20d7793b30a5a25b1f1339412970c8a2ef932b6f"
+      url: "https://github.com/Unity-Technologies/unity-ads-ios/releases/download/4.18.1/UnityAds.zip",
+      checksum: "62cac3d0df3c8e0106f364f0e456f4edb42b6364dd9dc44b1d13985f70c2fbd1"
     ),
   ]
 )
