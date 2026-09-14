@@ -9,15 +9,12 @@ let package = Package(
   products: [
     .library(name: "UnityAds", targets: ["UASPM"]),
   ],
-  dependencies: [
-    .package(url: "https://github.com/ironsource-mobile/Unity-Ad-Quality-Swift-Package", from: "9.2.1"),
-  ],
+  dependencies: [],
   targets: [
     .target(
       name: "UASPM",
       dependencies: [
         .target(name: "UnityAdsSDK"),
-        .product(name: "AdQuality", package: "Unity-Ad-Quality-Swift-Package"),
       ],
       linkerSettings: [
         .linkedFramework("AdSupport"),
