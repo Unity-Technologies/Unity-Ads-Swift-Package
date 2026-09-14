@@ -34,8 +34,8 @@ let package = Package(
       ]),
     .binaryTarget(
       name: "UnityAdsSDK",
-      url: "https://github.com/Unity-Technologies/unity-ads-ios/releases/download/4.20.0/UnityAds.zip",
-      checksum: "7084559dd2d2ed4c6bf2244917fee557db67e21fef66796c7e42da2bae6685d4"
+      url: "https://github.com/Unity-Technologies/unity-ads-ios/releases/download/4.20.1/UnityAds.zip",
+      checksum: "c7fba62bec9fe1f703caf83931cce65452bbfca4a3e742c338d57d845c4ad840"
     ),
   ]
 )
